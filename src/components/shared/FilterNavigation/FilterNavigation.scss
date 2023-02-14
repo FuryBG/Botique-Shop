@@ -1,0 +1,41 @@
+.filter-container {
+    padding: 3rem;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.colors {
+    line-height: 2rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    p {
+        font-size: 5rem;
+        cursor: pointer;
+        display: block;
+    }
+}
+.sizes {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    p {
+        cursor: pointer;
+    }
+}
+.sizes p:hover {
+    background-color: black;
+    color: white;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}

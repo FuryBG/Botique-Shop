@@ -1,0 +1,27 @@
+.dot {
+    font-size: 3rem;
+    color: gainsboro;
+    cursor: pointer;
+}
+
+.dot-selected {
+    font-size: 3rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.dots-wrapper {
+    display: inline-flex;
+    line-height: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    height: 40rem;
+}
+
+.slider-wrapper {
+    text-align: center;
+}

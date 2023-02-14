@@ -1,0 +1,39 @@
+.product-card {
+    max-width: 30rem;
+    max-height: 40rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.product-card:hover {
+    img {
+        opacity: 30%;
+    }
+    .view {
+        display: block;
+        color: black;
+    }
+}
+.view {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    display: none;
+    font-weight: bolder;
+}
+.image-wrapper {
+    img {
+        max-width: 100%;
+    }
+}
+.intro {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 1px grey solid;
+}
+.promotion {
+    color: red;
+}

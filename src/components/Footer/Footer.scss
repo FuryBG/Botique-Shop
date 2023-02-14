@@ -1,0 +1,22 @@
+footer {
+    background-color: black;
+    max-height: 10rem;
+    color: white;
+}
+.follow {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.follow p {
+    align-self: center;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
